@@ -3,13 +3,36 @@
   scroll-behavior: smooth;
 }
 
-body {
-  background-image: url('edited.jpg');
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #0c0c0c;
-  color: #fff;
+#home {
+  background-image: url('edited.gif');
+  background-size: cover;
+  background-position: center;
 }
+
+#about {
+  background-image: url('seminar.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#events {
+  background-image: url('workshop-1024x576.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#register {
+  background-image: url('seminarr.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#contact {
+  background-image: url('edited.gif');
+  background-size: cover;
+  background-position: center;
+}
+
 
 nav {
   background-color: #111;
