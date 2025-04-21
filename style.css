@@ -5,26 +5,26 @@
 
 #home {
   background-image: url('home.jpg.png');
-  background-size:100% 100%;
+ background-size:cover;
   background-position: center;
   
 }
 
 #events {
   background-image: url('events.jpg');
- background-size:100% 100%;
+ background-size:cover;
   background-position: center;
 }
 
 #register {
   background-image: url('register.mp4');
-  background-size:100% 100%;
+  background-size:cover;
   background-position: center;
 }
 
 #contact {
   background-image: url('contact.jpg');
-  background-size:100% 100%;
+  background-size:cover;
   background-position: center;
 }
 
@@ -159,11 +159,11 @@ button:hover {
   color: #ccc;
   font-size: 0.95em;
 }
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0c0c0c;
+    color: #fff;
+  }
 
 
