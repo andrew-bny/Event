@@ -4,25 +4,25 @@
 }
 
 #home {
-  background-image: url('edited.gif');
+  background-image: url('home.jpg.png');
   background-size: cover;
   background-position: center;
 }
 
 #events {
-  background-image: url('workshop-1024x576.jpg');
+  background-image: url('events.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #register {
-  background-image: url('seminarr.jpg');
+  background-image: url('Jim Carrey tries typing test.mp4');
   background-size: cover;
   background-position: center;
 }
 
 #contact {
-  background-image: url('edited.gif');
+  background-image: url('contact.jpg');
   background-size: cover;
   background-position: center;
 }
