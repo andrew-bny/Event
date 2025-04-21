@@ -61,10 +61,14 @@ nav .logo {
 section {
   padding: 100px 30px;
   min-height: 100vh;
+  margin: 0;
+  width: 100vw; /* Ensure full viewport width */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow-x: hidden; /* Prevent scrollbars if image slightly overflows */
 }
+
 
 h1, h2 {
   color: #f5c542;
@@ -154,5 +158,11 @@ button:hover {
 .event-card p {
   color: #ccc;
   font-size: 0.95em;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
