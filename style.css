@@ -5,26 +5,26 @@
 
 #home {
   background-image: url('home.jpg.png');
-  background-size: cover;
+  background-size:100% 100%;
   background-position: center;
   
 }
 
 #events {
   background-image: url('events.jpg');
-  background-size: cover;
+ background-size:100% 100%;
   background-position: center;
 }
 
 #register {
   background-image: url('register.mp4');
-  background-size: cover;
+  background-size:100% 100%;
   background-position: center;
 }
 
 #contact {
   background-image: url('contact.jpg');
-  background-size: cover;
+  background-size:100% 100%;
   background-position: center;
 }
 
