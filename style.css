@@ -162,20 +162,20 @@
     background-size:cover;
     background-position: center;
   }
-  .bottom-left-images {
+ .home-bottom-left-images {
   position: fixed;
   bottom: 10px;
   left: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  z-index: 1000;
+  z-index: 999;
 }
 
-.bottom-left-images .bottom-img {
-  width: 150px;
+.home-bottom-left-images .bottom-img {
+  width: 140px; /* adjust as needed */
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
