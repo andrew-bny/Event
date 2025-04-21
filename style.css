@@ -59,6 +59,7 @@ nav .logo {
 }
 
 section {
+    margin:20px
     padding: 100px 30px;
     min-height: 100vh;
   }
