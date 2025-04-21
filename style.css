@@ -4,6 +4,7 @@
 }
 
 #home {
+  margin:0;
   background-image: url('home.jpg.png');
  background-size:cover;
   background-position: center;
@@ -11,18 +12,21 @@
 }
 
 #events {
+  margin:0;
   background-image: url('events.jpg');
  background-size:cover;
   background-position: center;
 }
 
 #register {
+  margin:0;
   background-image: url('register.mp4');
   background-size:cover;
   background-position: center;
 }
 
 #contact {
+  margin:0;
   background-image: url('contact.jpg');
   background-size:cover;
   background-position: center;
@@ -59,7 +63,6 @@ nav .logo {
 }
 
 section {
-    margin:20px
     padding: 100px 30px;
     min-height: 100vh;
   }
