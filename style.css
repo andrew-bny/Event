@@ -59,15 +59,9 @@ nav .logo {
 }
 
 section {
-  padding: 100px 0; /* remove horizontal padding */
-  min-height: 100vh;
-  margin: 0;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-}
+    padding: 100px 30px;
+    min-height: 100vh;
+  }
 
 
 h1, h2 {
