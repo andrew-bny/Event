@@ -59,14 +59,14 @@ nav .logo {
 }
 
 section {
-  padding: 100px 30px;
+  padding: 100px 0; /* remove horizontal padding */
   min-height: 100vh;
   margin: 0;
-  width: 100vw; /* Ensure full viewport width */
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow-x: hidden; /* Prevent scrollbars if image slightly overflows */
+  overflow-x: hidden;
 }
 
 
@@ -162,7 +162,8 @@ button:hover {
 html, body {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
+
 
